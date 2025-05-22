@@ -1,24 +1,29 @@
 <!doctype html>
 <lang="pt-br">
+
 	<head>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet"> <!--Importing from google fonts the Alice type -->
-		
-		<link rel="stylesheet" href="../bibliotecas/css/header/header.css" />
-		<meta charset="utf-8" />
+		<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+		<!--Importing from google fonts the Alice type -->
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="../bibliotecas/css/header.css" />
+		<link rel="stylesheet" href="../bibliotecas/css/carrossel.css" />
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<title> Home Page </title>
+		<script src="../bibliotecas/JS/code.js"></script>
 	</head>
+
 	<body>
-		<header> 
+		<header>
 			<div class="header-top">
 				<button class="header-button alice-regular">Acessar</button>
 			</div>
-			<div class="header-down alice-regular"> 
-				<div class="logotipo"> 
+			<div class="header-down alice-regular">
+				<div class="logotipo">
 					Bela-Rosa
 				</div>
-				<div class="navbar-menu"> 
+				<div class="navbar-menu">
 					<div class="div-menu alice-regular">
 						Nossa História
 					</div>
@@ -30,6 +35,31 @@
 					</div>
 				</div>
 			</div>
-		</header>     
+		</header>
+		<div class="carousel" data-carousel>
+			<div class="carousel-buttons">
+				<button class="carousel-button carousel-button_previous" data-carousel-button-previous>
+					<span class="fas fa-chevron-circle-left"></span>
+				</button>
+				<button class="carousel-button carousel-button_next" data-carousel-button-next>
+					<span class="fas fa-chevron-circle-right"></span>
+				</button>
+			</div>
+			<div class="slides" data-carousel-slides-container>
+				<div class="slide">
+					<!-- Anything can be here. Each slide can have any content -->
+					 <img src="../../Imagens/Fazenda.jpg" alt="">
+					<h2>Slide 1 heading</h2>
+					<p>Slide 1 content
+				</div>
+				<div class="slide">
+					<!-- Anything can be here. Each slide can have any content -->
+					<img src="../../Imagens/vinhos.jpeg" alt="">
+					<h2>Slide 2 heading</h2>
+					<p>Slide 2 content
+				</div>
+			</div>
+		</div>
 	</body>
-</html>
+
+	</html>

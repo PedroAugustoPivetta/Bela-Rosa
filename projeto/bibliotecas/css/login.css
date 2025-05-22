@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body{
+    margin: 0;
+    background-color: #808080;
+}
+
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.header{
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.div-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.header-buttons{
+    color: #ffffff;
+    background-color: #000000;
+	border-color: #ffffff;
+	border-width: 1px;
+	border-radius: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+    border-style: solid;
+    font-size: medium;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+label{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input{
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #1c1c1c;
+    border-color: #ffffff;
+    border-width: 1px;
+    color: #ffffff;
+    width: 220px;
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    outline: none;
+}
+
+.button-form{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #1c1c1c;
+    border-radius: 7px;
+    margin-top: 30px;
+    color: #ffffff;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: medium;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.form-img{
+    height: 408px;
+    width: auto;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
